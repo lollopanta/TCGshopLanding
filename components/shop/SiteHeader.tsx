@@ -146,8 +146,8 @@ export function SiteHeader() {
         <div
           id="js--search-bar"
           className={`div--container absolute left-0 right-0 top-full z-10 pt-2 transition-all duration-500 ${searchOpen
-              ? "pointer-events-auto translate-y-0 opacity-100"
-              : "pointer-events-none -translate-y-full opacity-0"
+            ? "pointer-events-auto translate-y-0 opacity-100"
+            : "pointer-events-none -translate-y-full opacity-0"
             }`}
         >
           <div
@@ -339,11 +339,6 @@ export function SiteHeader() {
                 <li>
                   <Link href="#" onClick={() => setMobileOpen(false)} className="block py-2">
                     Novità
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" onClick={() => setMobileOpen(false)} className="block py-2">
-                    Prevendite
                   </Link>
                 </li>
                 <li>

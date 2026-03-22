@@ -13,7 +13,6 @@ const heroSlides: {
   remoteDesktop?: string;
 }[] = [
     { desktop: "/img/hero1-2.jpg", mobile: "/img/hero1-2.jpg" },
-    { desktop: "/img/prevendite.jpg", href: "#" },
     {
       desktop: "/img/hero2-one-piece.jpg",
       href: "#",
