@@ -11,15 +11,6 @@ import { novitaProducts, saldiProducts } from "@/lib/shop-data";
 export default function Home() {
   return (
     <>
-      <div className="bg-grid absolute inset-0 -z-10 h-full w-full" aria-hidden />
-      <div
-        className="radial-gold absolute left-0 top-0 z-10 aspect-[2/1.5] w-full -translate-y-1/2 opacity-60"
-        aria-hidden
-      />
-      <div
-        className="radial-violet absolute left-0 top-0 z-10 aspect-[2/1.5] w-full opacity-60"
-        aria-hidden
-      />
 
       <SiteHeader />
 
