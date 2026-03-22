@@ -100,15 +100,6 @@ export function SiteHeader() {
                       </ul>
                     </div>
                   </li>
-                  <li className="menu-item">
-                    <Link href="#">Novità</Link>
-                  </li>
-                  <li className="menu-item">
-                    <Link href="#">Prevendite</Link>
-                  </li>
-                  <li className="menu-item">
-                    <Link href="#">Saldi</Link>
-                  </li>
                   <li className="menu-item-has-children menu-item">
                     <Link href="#">Extra</Link>
                     <div className="sub-menu-wrap">
@@ -154,11 +145,10 @@ export function SiteHeader() {
         </div>
         <div
           id="js--search-bar"
-          className={`div--container absolute left-0 right-0 top-full z-10 pt-2 transition-all duration-500 ${
-            searchOpen
+          className={`div--container absolute left-0 right-0 top-full z-10 pt-2 transition-all duration-500 ${searchOpen
               ? "pointer-events-auto translate-y-0 opacity-100"
               : "pointer-events-none -translate-y-full opacity-0"
-          }`}
+            }`}
         >
           <div
             style={{ backdropFilter: "blur(5px)" }}
@@ -228,9 +218,8 @@ export function SiteHeader() {
         <div
           id="header-mobile-overlay"
           style={{ backdropFilter: "blur(4px)" }}
-          className={`fixed left-0 top-0 z-30 flex h-[100dvh] w-full flex-col bg-black/40 transition-transform duration-500 ease-in-out ${
-            mobileOpen ? "translate-x-0" : "-translate-x-full"
-          }`}
+          className={`fixed left-0 top-0 z-30 flex h-[100dvh] w-full flex-col bg-black/40 transition-transform duration-500 ease-in-out ${mobileOpen ? "translate-x-0" : "-translate-x-full"
+            }`}
         >
           <div className="div--container flex min-h-full flex-col gap-6 overflow-y-scroll pt-4">
             <div className="navigator flex items-center justify-between rounded-2xl border border-gridcolor bg-black px-4 py-4">
@@ -276,7 +265,7 @@ export function SiteHeader() {
                   </Link>
                 </li>
                 <li>
-                  <button 
+                  <button
                     className="flex w-full items-center justify-between py-2 text-left"
                     onClick={() => toggleMenu("pokemon")}
                   >
@@ -300,7 +289,7 @@ export function SiteHeader() {
                   </div>
                 </li>
                 <li>
-                  <button 
+                  <button
                     className="flex w-full items-center justify-between py-2 text-left"
                     onClick={() => toggleMenu("onepiece")}
                   >
@@ -326,7 +315,7 @@ export function SiteHeader() {
                   </Link>
                 </li>
                 <li>
-                  <button 
+                  <button
                     className="flex w-full items-center justify-between py-2 text-left"
                     onClick={() => toggleMenu("carte")}
                   >
@@ -363,7 +352,7 @@ export function SiteHeader() {
                   </Link>
                 </li>
                 <li>
-                  <button 
+                  <button
                     className="flex w-full items-center justify-between py-2 text-left"
                     onClick={() => toggleMenu("extra")}
                   >
